@@ -104,7 +104,7 @@ section.sobre h2{
     margin-bottom: 30px;
     text-align: center;
     width: 100%;
-    //margin-right: 180px;
+    /*margin-right: 180px;*/
 }
 
 div.imagem{
@@ -157,16 +157,21 @@ section.projetos h2{
 div.projeto{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-arround;
-    
+    justify-content: space-around;
+    width: 300px;
+    background-color: #404040;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 10px 14px 17px -3px rgba(0,0,0,0.97);
+    -webkit-box-shadow: 10px 14px 17px -3px rgba(0,0,0,0.97);
+    -moz-box-shadow: 10px 14px 17px -3px rgba(0,0,0,0.97);
 }
 
 div.projeto img{
     max-width: 100%;
     max-height: 100%;
+    border-radius: 20px;
 }
-
-
 
 div.projeto h4{
     text-align: center;
@@ -174,6 +179,23 @@ div.projeto h4{
     color: #fff;
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+div.projeto p{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+div.projeto a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+div.projeto a:hover{
+    color: #229AFF;
 }
 
 @media screen and (max-width: 768px){
@@ -202,6 +224,15 @@ div.projeto h4{
 
     div.texto-sobre h3{
         text-align: center;
+    }
+
+    div.projeto{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    div.projeto img{
+        width: 100%;
     }
 
 
