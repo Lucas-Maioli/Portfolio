@@ -198,6 +198,29 @@ div.projeto a:hover{
     color: #229AFF;
 }
 
+footer.one{
+    background-color: #4A148C;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer.one span{
+    margin-left: 20px;
+}
+
+div.social a{
+    color: #229AFF;
+    font-size: 1.5rem;
+    margin-left: 2px;
+}
+
+footer.two{
+    background-color: #6A1B9A;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
 @media screen and (max-width: 768px){
     nav.desktop{
         display: none;
